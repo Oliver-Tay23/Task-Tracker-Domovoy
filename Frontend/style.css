@@ -1,0 +1,119 @@
+:root {
+  --card-bg: rgba(10, 8, 16, 0.75);
+  --text: #EDE9F5;
+  --accent: #F0B429;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Georgia, serif;
+  color: var(--text);
+
+  background-image: url("Domovoy.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.topbar {
+  width: 100%;
+  max-width: 700px;
+  margin: 60px auto 0 auto;
+  padding: 0;
+}
+
+.brand {
+  font-family: "Cinzel Decorative", serif;
+  font-size: 40px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  color: var(--accent);
+}
+
+.tasks-page {
+  width: 100%;
+  max-width: 700px;
+  margin: 40px auto;
+}
+
+.task-form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 24px;
+}
+
+.task-form input {
+  flex: 1;
+  background: var(--card-bg);
+  border: 1px solid var(--accent);
+  border-radius: 8px;
+  padding: 14px 16px;
+  color: var(--text);
+  font-size: 16px;
+}
+
+.task-form button {
+  background: var(--accent);
+  border: none;
+  border-radius: 8px;
+  padding: 0 20px;
+  color: #12161c;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.task-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.task-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 14px 18px;
+  background-color: var(--card-bg);
+  border: 1px solid var(--accent);
+  border-radius: 10px;
+}
+
+.task-item__text {
+  flex: 1;
+  color: var(--text);
+  font-size: 16px;
+}
+
+.task-item--done .task-item__text {
+  opacity: 0.5;
+  text-decoration: line-through;
+}
+
+.task-item__delete {
+  background: none;
+  border: none;
+  color: var(--text);
+  opacity: 0.6;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.task-item__delete:hover {
+  opacity: 1;
+  color: #ff6b6b;
+}
+
+.task-list__empty {
+  color: var(--text);
+  opacity: 0.5;
+  text-align: center;
+  padding: 20px 0;
+}
