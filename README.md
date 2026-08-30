@@ -12,12 +12,18 @@ A standalone daily tasks tracker, built as a companion app to Spectre — a pers
   
 - Styled to match the Spectre dashboard's dark, ghost-themed aesthetic
   
-Tech stack
+## Tech stack
 
-Backend: FastAPI, SQLite (via Python's built-in sqlite3)
-Frontend: Vanilla HTML, CSS, and JavaScript (no framework)
-Server: Uvicorn (ASGI)
-Project structure
+- Backend: FastAPI, SQLite (via Python's built-in sqlite3)
+  
+- Frontend: Vanilla HTML, CSS, and JavaScript (no framework)
+  
+- Server: Uvicorn (ASGI)
+
+  
+## Project Structure
+
+'''
 Domovoy/
 ├── backend/
 │   ├── main.py        # FastAPI app: API routes + static file serving
@@ -26,3 +32,4 @@ Domovoy/
     ├── index.html
     ├── style.css
     └── script.js
+'''
