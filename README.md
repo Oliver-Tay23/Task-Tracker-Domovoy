@@ -23,7 +23,7 @@ A standalone daily tasks tracker, built as a companion app to Spectre — a pers
   
 ## Project Structure
 
-'''
+```
 Domovoy/
 ├── backend/
 │   ├── main.py        # FastAPI app: API routes + static file serving
@@ -32,4 +32,4 @@ Domovoy/
     ├── index.html
     ├── style.css
     └── script.js
-'''
+```
