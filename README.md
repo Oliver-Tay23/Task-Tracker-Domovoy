@@ -34,6 +34,6 @@ Domovoy/
     └── script.js
 ```
 
-## Part of the Spectre ecosystem
+## Part of the Spectre ecosystem: https://github.com/Oliver-Tay23/Dashboard-Spectre#spectre
 
 Domovoy is linked from the Spectre dashboard's "Daily Tasks" card, opening in a new tab. It's built as a separate project so it can be hosted, updated, and scaled independently of the main dashboard.
